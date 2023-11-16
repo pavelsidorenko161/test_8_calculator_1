@@ -1,0 +1,66 @@
+.wrapper {
+  background: #333;
+  height: 700px;
+  /* ИСПРАВИТЬ ===================================*/
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.cal {
+  background: #2583bd;
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+}
+.resultat {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result {
+  font-size: 24px;
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+}
+.btn-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  border-color: rgb(0, 0, 0, 0.5);
+}
+.btn-plus {
+  background-color: rgb(241, 67, 67);
+}
+.btn-minus {
+  background-color: greenyellow;
+}
+.btn-multiply {
+  background-color: rgb(130, 124, 251);
+}
+.btn-divide {
+  background-color: rgb(232, 241, 67);
+}
+.submit {
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+}
